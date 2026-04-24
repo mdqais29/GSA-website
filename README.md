@@ -2,11 +2,12 @@
 
 A fully responsive and modern website built for **Global Safety Academy**, designed to showcase courses, services, and provide a seamless user experience across all devices.
 
+<img width="1901" height="1024" alt="Image" src="https://github.com/user-attachments/assets/9f168122-f134-4f5e-b41b-e31c3e9d65b4" />
+
 ---
 
 ## 🚀 Live Demo
-👉 [View Website](#)  
-*(Add your deployed link here — Netlify / GitHub Pages)*
+👉 https://global-safety-academy1.netlify.app/
 
 ---
 
@@ -28,3 +29,22 @@ A fully responsive and modern website built for **Global Safety Academy**, desig
 - **JavaScript (Vanilla JS)** – Interactivity  
 
 ---
+## 📱 Responsiveness
+
+The website is optimized for:
+
+- 📱 Mobile devices  
+- 📲 Tablets  
+- 💻 Desktop screens  
+
+---
+
+## 🧠 What I Learned
+
+- Building real-world responsive layouts
+- Improving UI/UX design skills
+- Structuring clean and maintainable code
+
+---
+
+⭐ If you like this project, consider giving it a star!
