@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Global Safety Academy to inquire about safety courses, certifications, and admissions.">
+  <title>Contact | Global Safety Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+  <header class="simple-header">
+    <div class="container nav-wrap">
+      <a class="logo logo-image-link" href="index.html" aria-label="Global Safety Academy home">
+        <img class="brand-logo brand-logo-header" src="assets/logo (1).png" alt="Global Safety Academy">
+      </a>
+      <a class="btn btn-outline back-home-btn" href="index.html" aria-label="Back to Home">
+        <span class="back-home-text">Back to Home</span>
+        <svg class="back-home-icon" aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M19 12H7"></path>
+          <path d="M12 17 7 12l5-5"></path>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="contact-main">
+    <section class="section">
+      <div class="container form-shell">
+        <div class="contact-layout">
+          <aside class="contact-info-panel reveal">
+            <p class="eyebrow">Contact us</p>
+            <h1>Let’s help you choose the right safety course.</h1>
+            <p class="contact-intro">Share your goals with us and our team will guide you on admissions, certifications, and the best learning path for your background.</p>
+            <div class="contact-details">
+              <article class="contact-detail-card">
+                <h2>Phone</h2>
+                <p><a href="tel:+919381740025">+91 93817 40025</a></p>
+                <span>Contact Person: Md. Riyazuddin</span>
+              </article>
+              <article class="contact-detail-card contact-wide-card">
+                <h2>Email</h2>
+                <p><a href="mailto:info@globalsafetyacademy.com">info@globalsafetyacademy.com</a></p>
+              </article>
+              <article class="contact-detail-card contact-wide-card">
+                <h2>Website</h2>
+                <p><a href="https://www.globalsafetyacademy.com" target="_blank" rel="noreferrer">www.globalsafetyacademy.com</a></p>
+              </article>
+              <article class="contact-detail-card contact-address-card">
+                <h2>Address</h2>
+                <p>Shop 96, 97, 2nd Floor, LPT Market, Hyd Road, Nalgonda, Telangana 508001</p>
+              </article>
+            </div>
+          </aside>
+
+          <div class="contact-card reveal">
+            <div class="contact-form-head">
+              <p class="eyebrow">Inquiry form</p>
+              <h2>Send your details</h2>
+            </div>
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="contact-form-grid">
+                <div class="form-field">
+                  <label for="fullName">Full Name</label>
+                  <input id="fullName" name="fullName" type="text" placeholder="Enter your full name" required>
+                  <small class="error-text"></small>
+                </div>
+                <div class="form-field">
+                  <label for="phone">Phone Number</label>
+                  <input id="phone" name="phone" type="tel" placeholder="Enter your phone number" required>
+                  <small class="error-text"></small>
+                </div>
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" placeholder="Enter your email address" required>
+                  <small class="error-text"></small>
+                </div>
+                <div class="form-field">
+                  <label for="course">Course Interested</label>
+                  <select id="course" name="course">
+                    <option value="">Select a course</option>
+                    <option>Diploma in Fire &amp; Safety</option>
+                    <option>Industrial Safety</option>
+                    <option>Construction Safety</option>
+                    <option>Advanced Diploma in OHS</option>
+                    <option>Package for 10th / 12th</option>
+                    <option>Package for Graduates</option>
+                    <option>Package for Engineers</option>
+                  </select>
+                  <small class="error-text"></small>
+                </div>
+                <div class="form-field form-field-full">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" placeholder="Tell us about your goals" required></textarea>
+                  <small class="error-text"></small>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-full" type="submit">Submit Inquiry</button>
+              <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
